@@ -97,9 +97,9 @@ class RoutesCommand extends Command
                 if (strcmp($a['method'], $b['method']) === 0) {
                     return 0;
                 }
-                return strcmp($a['method'], $b['method']) == 1 ? 1 : -1;
+                return strcmp($a['method'], $b['method']) > 0 ? 1 : -1;
             }
-            return strcmp($a['uri'], $b['uri']) == 1 ? 1 : -1;
+            return strcmp($a['uri'], $b['uri']) > 0 ? 1 : -1;
         });
     }
 }
