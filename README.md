@@ -18,7 +18,10 @@ Display The Lumen Registered Routes List Same As Laravel
 ## Commands
 
 ```
-php artisan route:list
+php artisan route:list {default version name: API_VERSION}
+EX: 
+- artisan route:list v1
+- artisan route:list v2
 ```
 
 
