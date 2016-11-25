@@ -2,8 +2,9 @@
     "name": "mannv/dingo-routes-list",
     "type": "library",
     "license": "MIT",
-    "description": "Lumen Routes List Show",
+    "description": "Lumen Routes List Show, Dingo routes list in artisan",
     "keywords": [
+        "dingo",
         "lumen",
         "route list"
     ],    
