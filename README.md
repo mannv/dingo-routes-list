@@ -6,7 +6,7 @@ Display The Lumen Registered Routes List Same As Laravel
 
 1. Run 
     ```
-    composer require mannv/dingo-routes-list
+    composer require mannv/dingo-routes-list "1.0.x-dev"
     ```
     
 2. Add service provider into **/bootstrap/app.php** file.
