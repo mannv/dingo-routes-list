@@ -86,7 +86,7 @@ class RoutesCommand extends Command
             }
         }
         $this->sortListRouter($list);
-        $headers = array('Version', 'Method', 'Uri', 'Action', 'Name', 'Middleware');
+        $headers = array('Version', 'Method', 'Name', 'Uri', 'Action', 'Middleware');
         $this->table($headers, $list);
     }
 
